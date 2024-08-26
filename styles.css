@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478116.jpg?t=st=1724663144~exp=1724666744~hmac=727ee4a51b9b08a0d867bba484b4319142f9a3e513e57ddb4805af0d3bba2f3e&w=1380');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 70%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+#weather-info img {
+    margin-top: 10px;
+}
